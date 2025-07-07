@@ -2,6 +2,10 @@
 
 chatbot automatizado para atendimento de vendas via whatsApp, desenvolvido com Node.js e Baileys.
 
+## sobre
+
+- **não tem necessidade de você alterar nada do bot, apenas o ''constants.js'' na pasta config, para modificar as mensagens e produtos.**
+
 ## funcionalidades
 
 - **mensagem de boas-vindas automática** com opções numeradas
@@ -35,3 +39,5 @@ chatbot automatizado para atendimento de vendas via whatsApp, desenvolvido com N
 4. escaneie o QR Code que aparecerá no terminal com seu WhatsApp
 
 5. se gostou do projeto e quiser me apoiar compartilhando.
+
+
