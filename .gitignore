@@ -4,7 +4,7 @@ node_modules/
 
 auth_info_baileys/
 
-*.log
+.log
 logs/
 
 .env
@@ -17,13 +17,13 @@ logs/
 .npm
 
 
-*.tmp
-*.temp
+.tmp
+.temp
 
 .DS_Store
 Thumbs.db
 
 .vscode/
 .idea/
-*.swp
-*.swo
+.swp
+.swo
