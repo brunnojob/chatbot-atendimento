@@ -6,13 +6,12 @@ console.log(" RESET DE AUTENTICACAO - WHATSAPP BOT")
 console.log("========================================")
 console.log()
 
-// Caminho da pasta de autenticação
 const authPath = path.join(__dirname, "auth_info_baileys")
 
 try {
-  // Verifica se a pasta existe
+
   if (fs.existsSync(authPath)) {
-    // Remove a pasta recursivamente
+    
     fs.rmSync(authPath, { recursive: true, force: true })
     console.log("Dados de autenticacao removidos com sucesso!")
   } else {
